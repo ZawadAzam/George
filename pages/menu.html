@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+  <nav>
+    <div class="menu-toggle">&#9776;</div>
+    <div class="nav-items">
+      <a href="../index.html">Home</a>
+      <a href="../pages/menu.html">Menu</a>
+      <a href="../pages/locationtest.html">Locations</a>
+      <a href="../pages/booking.html">Booking</a>
+      <a href="../pages/history.html">History</a>
+    </div>
+  </nav>
+    <div class="toplogo"><img src="../image/logo.jpg" alt="logo" style="width: 100px;"></div>
+    <div class="des">
+        <h2 style="color:white ;">Click On Image To View Description</h2>
+    </div>
+    <div class="st"><h4>Starters</h4></div>
+    <div class="container">
+
+    <div class="row">
+        <div class="colu">
+            <a href="soup.html" class="remove"><img src="../image/tomato soup.png" alt="Snow" style="width:400px; height: 300px;"></a>
+        </div>
+        <div class="colu">
+            <a href="fishcake.html" class="remove"><img src="../image/fish cake.png" alt="Forest" style="width: 400px; height: 300px;"></a>
+        </div>
+    </div>
+
+    </div>
+    <div class="mn"><h3>Mains</h3></div>
+    <div class="space"></div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <a href="beefburger.html" class="remove"><img src="../image/beefburger.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+            <div class="column">
+                <a href="chknsalad.html" class="remove"><img src="../image/chicken salad.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+            <div class="column">
+                <a href="fish&chips.html" class="remove"><img src="../image/Fish & chips.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+            <div class="column">
+                <a href="vegan.html" class="remove"><img src="../image/veganburger.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+            <div class="column">
+                <a href="chickenburger.html" class="remove"><img src="../image/chickenburger.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+            <div class="column">
+                <a href="mac&cheese.html" class="remove"><img src="../image/mac&cheese.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="desert"><h3>Desert</h3></div>
+    <div class="space"></div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <a href="icecream.html" class="remove"><img src="../image/icecream.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+            <div class="column">
+                <a href="cheesecake.html" class="remove"><img src="../image/cheesecake.png" alt="" style="width: 400px; height: 300px;"></a>
+            </div>
+        </div>
+    </div>
+    <div class="bottomsp"></div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+    
+        menuToggle.addEventListener('click', function () {
+          nav.classList.toggle('open');
+        });
+      });
+    </script>
+</body>
+</html>

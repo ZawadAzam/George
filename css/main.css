@@ -1,0 +1,77 @@
+/* Styles for the layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.column {
+    flex: 0 0 calc(50% - 10px); /* Two columns with reduced margin in between */
+    margin-bottom: 20px;
+    background-color: transparent; 
+    border: none;
+}
+
+.remove{
+    border: none;
+    background-color: rgb(228, 208, 208);
+  }
+  .mn{width: 10px; 
+    position: absolute; 
+     left: 1ch;
+             margin-bottom: 5ch;
+  }
+  .space{
+    width: 200px;
+   
+    margin-top: 10ch;
+  }
+  .desert{
+    margin-top: 5ch;
+    width: 10px; 
+    position: absolute; 
+     left: 1ch;
+             margin-bottom: 5ch;
+            
+  }
+  .bottomsp{
+    width: 200px;
+   
+    margin-bottom: 10ch;
+  }
+  .st{
+    width: 30px; 
+              position: absolute; /* Position the logo */
+              top: 75px; /* Adjust the distance from the top */
+              left: 1ch; /* Adjust the distance from the left */
+             
+              margin-bottom: 2ch;
+  }
+  body { 
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(228, 208, 208);
+  }
+
+@media screen and (min-width: 768px) {
+    .column {
+        flex: 0 0 calc(33.33% - 10px); /* Three columns with reduced margin in between */
+    }
+    .colu{
+        flex: 0 0 calc(33.33% - 10px);
+    }
+    .pass{
+        width: 80px;
+    }
+    .des{
+        margin-top: 10ch;
+       margin-bottom: 2ch;
+        background-color: #333;
+        border-radius: 5px;
+        width: 520px; height: 50px;
+      }
+      
+    }
+  

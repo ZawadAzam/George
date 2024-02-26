@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookingform</title>
+    
+    
+</head>
+<link rel="stylesheet" href="../css/mystyle.css ">
+<link rel="stylesheet" href="../css/nav.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+<body>
+  <nav>
+    <div class="menu-toggle">&#9776;</div>
+    <div class="nav-items">
+      <a href="../index.html">Home</a>
+      <a href="../pages/menu.html">Menu</a>
+      <a href="../pages/locationtest.html">Locations</a>
+      <a href="../pages/booking.html">Booking</a>
+      <a href="../pages/history.html">History</a>
+    </div>
+  </nav>
+  <div class="toplogo">
+    <img src="../image/logo.jpg" alt="logo" style="width: 100px;">
+  </div>
+   <div class="form">
+    <form id="contactForm" action="javascript:void(0)" onsubmit="sendEmail(); return false;">
+     
+  
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+           <br>
+          <label for="country">Which location You want to book?</label>
+          <select id="country" name="country">
+            <option value="australia">Mile End</option>
+            <option value="canada">Bathnal Green</option>
+            </select>
+            <br>
+            <label for="numberInput">How many people you want to book the venue for?</label>
+            <input type="number" id="numberInput" name="numberInput" min="2" max="40" required>
+            <br>
+                <!-- Mobile Number Input -->
+    <label for="mobileNumber">Your Mobile Number:</label>
+    <input type="tel" id="mobileNumber" name="mobileNumber" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required>
+    <br>
+
+    <!-- Email Input -->
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+    <br>
+
+    <!-- Hours (Time) Input -->
+    <label for="hours">Time of Booking:</label>
+    <input type="time" id="hours" name="hours" required>
+    <br>
+    <br>
+
+    <!-- Hours (Time) Input -->
+    <label for="date">Date of Booking:</label>
+    <input type="date" id="date" name="date" required>
+    <br>    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="btt"><h5>Book our stylish dining room for any occasion! You can reserve space for up to 30 people, and our Mile End branch can accommodate up to 50. For the best availability, we recommend booking at least 3 days in advance. Need more room? Advance booking of at least seven days is required for parties of up to 20 people. If you have any questions, feel free to contact us using the info below. Let's make your event unforgettable!</h5></div>
+      <div class="ulol">
+        <h1>Help Us Expand!</h1>
+        <p>We're excited to announce our plans to expand with new branches all around London. Your opinion matters to us! If you live in or near any of these areas, please share your expectations with us:</p>
+        <ol>
+          <li>Central London</li>
+          <li>Surrey</li>
+          <li>Westham</li>
+          <li>Ealing</li>
+          <li>Southhole</li>
+          <li>Cammerwell</li>
+          <li>Canary Wharf</li>
+        </ol>
+        <p>Let us know what facilities you'd like to see at our new branches. We're considering options such as:</p>
+        <ul>
+          <li>Car park</li>
+          <li>Outside dining</li>
+          <li>Home delivery</li>
+        </ul>
+        <p>Your feedback will help us create a better experience for you. Thank you for your input!</p>
+      </div>
+      
+
+
+
+
+      <div class="textbox">
+
+
+<form action="comment.html">
+
+  <textarea class="feedback-box" placeholder="Enter your feedback here..."></textarea>
+
+  <input type="submit" value="Submit">
+</form>
+
+     </div>
+
+    <div class="dtt"><h3>Call Us On: 02354723746</h3></div>
+    <br>
+    <div class="dtt"><h3>Email Us: georgerestaurantsltd@yahoo.com</h3></div>
+   <br>
+    <div class="buttonholder">
+       <a href="../index.html"> <button class="button" type="button">Go Back To Homepage</button></a>
+   </div>
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav');
+  
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('open');
+      });
+    });
+  </script>
+
+   
+   
+
+
+      </body>
+</html>

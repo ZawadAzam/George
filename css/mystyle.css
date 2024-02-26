@@ -1,0 +1,472 @@
+/*indexpage*/
+.middlepic {
+  width: 30%;
+ display: inline-block;
+  text-align: center;
+  border: 0;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+.middlepic a {
+  display: block; 
+  text-decoration: none; 
+  color: inherit; 
+  background-color: transparent; 
+  border: none;
+}
+
+@media screen and (max-width: 720px) {
+  .middlepic {
+    width: 100%; float: none;
+  }
+
+  .para{
+    font-size: 1.5vh;
+    
+  }
+  .q{margin-left: 3ch;
+    font-size: 2vw;
+  }
+  .logo { 
+    width: 10%;
+  margin-bottom: 15ch;
+  margin-top: 10ch;
+  margin-left: 3ch;
+
+}
+    .logo img {
+    width: 200px;
+    margin-bottom: 2px; 
+  }
+}
+  img:hover {
+    opacity: 0.5;}
+    .food{ text-align: center;
+    color: white;
+  }
+
+  .q{margin-left: 3ch;
+    font-size: 2vw;
+  }
+  .logo { 
+    width: 20%;
+    display: block; 
+   margin: auto;
+  margin-bottom: 15ch;
+  margin-top: 10ch;}
+    .logo img {
+    width: 300px;
+    margin-bottom: 5px; 
+  }
+  
+  
+  .toplogo{
+    width: 10px; 
+              position: absolute; 
+              top: 10px; 
+              left: 1ch; 
+  }
+ 
+  
+    .para{width: 90%;
+    margin-left: 4vh;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2vh;
+  }
+
+  
+    body { 
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: rgb(228, 208, 208);
+      }
+  
+    
+      .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .media{ width: 15%;
+  margin-left: 65ch;
+  margin-bottom: 10ch;
+  margin-top: 5ch;}
+
+  /*bookingpage*/
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=time], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: rgb(228, 208, 208);
+    padding: 20px;
+    width: 500px;
+    margin-left: 3ch;
+    margin-top: 10ch;
+  }
+  @media screen and (max-width: 500px) {
+    .form {
+      width: 300px;
+    }
+    
+  }
+  .btt{ width: 100%;
+  margin-left: 3ch;
+font-size: 2.2vw;}
+  .dtt{ border-radius: 5px;
+    background-color:rgb(217,217,217);
+    padding: 20px;
+    width: 400px;
+    margin-left: 3ch;
+    
+  }
+  .button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    margin-left: 3ch;
+   
+  }
+  .ulol{
+    font-size: 1.5vw;
+    margin-left: 4ch;
+    font-family: "Kode Mono", monospace;
+    width: 600px;
+    
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    .ulol{
+      width: 300px;
+    }
+    
+  }
+.textbox{
+  width: 400px;
+  margin-left: 3ch;
+  font-family:"Kode Mono", monospace ;
+}
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  .feedback-box {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+  }
+  .feedback-box:focus {
+    border-color: #007bff;
+  }
+  .buttonholder a{ width: 250px;
+    margin-left: 3ch;
+    margin-bottom: 6ch;
+    display: block; /* Make the anchor a block element */
+     /* Remove underline from the anchor */
+   /* Inherit text color */
+    background-color:rgb(228, 208, 208);
+    color: inherit; /* Use the same color as the parent element */
+  text-decoration: none; /* Remove underline */
+  border: none;
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  /*history page*/
+  .history{
+   margin-left: 20px;
+    width: 100%;
+    margin-top: 10ch;
+}
+.his{
+  font-size: 1.5vh;
+  font-family: 'Krona One', sans-serif;
+
+}
+.font{ font-size: 1.5vh;
+  font-family: 'Krona One', sans-serif;
+}
+/*menupage*/
+   
+
+  /* Styles for the layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+
+}
+
+.column {
+  flex: 0 0 calc(50% - 10px); /* Two columns with reduced margin in between */
+  margin-bottom: 20px;
+  background-color: transparent; 
+  border: none;
+}
+
+.remove{
+  border: none;
+  background-color: rgb(228, 208, 208);
+}
+.mn{width: 10px; 
+  position: absolute; 
+   left: 1ch;
+           margin-bottom: 5ch;
+}
+.space{
+  width: 200px;
+ 
+  margin-top: 10ch;
+}
+.desert{
+  margin-top: 5ch;
+  width: 10px; 
+  position: absolute; 
+   left: 1ch;
+           margin-bottom: 5ch;
+          
+}
+.bottomsp{
+  width: 200px;
+ 
+  margin-bottom: 10ch;
+}
+.st{
+  width: 30px; 
+            position: absolute; /* Position the logo */
+            top: 250px; /* Adjust the distance from the top */
+            left: 1ch; /* Adjust the distance from the left */
+           
+            margin-bottom: 2ch;
+}
+      
+
+@media screen and (min-width: 768px) {
+  .column {
+      flex: 0 0 calc(33.33% - 10px); /* Three columns with reduced margin in between */
+  }
+  .colu{
+      flex: 0 0 calc(50% - 10px);
+  }
+  .pass{
+      width: 80px;
+  }
+  .des{
+      margin-top: 10ch;
+     
+      background-color: #333;
+      border-radius: 5px;
+      width: 520px; height: 50px;
+    }
+    
+  }
+
+
+
+/*location*/
+
+
+.location1{position: absolute; 
+  width: 200px; 
+            
+            top: 120px; 
+            left: 1ch; 
+           
+            margin-bottom: 2ch;
+}
+.bethnalgreen{
+
+  margin-top: 20ch;
+  margin-left: 1ch;
+}
+.lwst1{
+  width: 100%;
+  
+  margin-left: 1ch;
+  font-size: 1.5vh;
+  font-family:'Krona One', sans-serif; 
+}
+.location2{
+  
+  width: 200px;
+  margin-bottom: 2ch;
+  margin-left: 1ch;
+}
+.mileend{
+ 
+  margin-left: 1ch;
+}
+.spb{
+  margin: 3ch;
+}
+ /*chicken salad*/
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 500px;
+  margin-left: 3ch;
+  margin-bottom: 4ch;
+}
+
+td, th {
+  border: 1px solid rgb(9, 8, 8);
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: rgb(217, 217, 217);
+}
+body { 
+margin: 0;
+font-family: 'Arial', sans-serif;
+background-color: rgb(228, 208, 208);
+}
+
+.tableintro{
+margin-left: 3ch;
+}
+.mollah {
+float: left;
+width: 33.33%;
+padding: 5px;
+margin-top: 10ch;
+margin-bottom: 7ch;
+
+}
+
+/* Clearfix (clear floats) */
+.zawad::after {
+
+content: "";
+clear: both;
+display: table;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 720px) {
+.mollah {
+width: 100%;
+};
+
+}
+@media screen and (max-width: 500px) {
+  .table{
+    width: 300px;
+  }
+  
+}
+
+
+.r{
+  margin-left: 3ch;
+}
+/* Thankyou*/
+.thankyou{
+  margin-top: 20ch;
+  margin-left: none;
+}
